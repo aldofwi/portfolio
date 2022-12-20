@@ -11,6 +11,8 @@
 
 [![Doc](https://img.shields.io/badge/App-Portfolio-green)](http://aldofwi.github.io/portfolio)
 
+[![Doc](https://img.shields.io/badge/Web-Portfolio-blue)](http://aldofwi.github.io/portfolio)
+
 
 ## Description
 
