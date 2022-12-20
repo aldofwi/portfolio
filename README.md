@@ -15,7 +15,9 @@
 ## Description
 
 This project was bootstrapped with 
-[Create React App](https://github.com/facebook/create-react-app).
+[Create React App](https://github.com/facebook/create-react-app),
+[React Multi Carousel](https://github.com/YIZHUANG/react-multi-carousel).
+
 
 ## Available Scripts
 
