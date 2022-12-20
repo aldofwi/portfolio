@@ -53,7 +53,7 @@ export const Banner = () => {
             <Row className='align-items-center'>
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to my Portfolio</span>
-                    <h1>{`Hi I'm ΛD `}</h1><h1><span className='wrap'>{text}</span></h1>
+                    <h1>{`Hi I'm ΛD `}</h1><h1>➖<span className='wrap'>{text}</span>➖</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Nam purus dolor, tincidunt sed turpis nec, interdum euismod lorem. Fusce imperdiet ullamcorper felis, ut tincidunt orci fringilla eu. Mauris efficitur, libero vitae placerat tempor, turpis arcu ultrices odio, vitae molestie urna est sit amet nunc. Nullam a felis sed ligula rutrum placerat id nec tellus. In faucibus nisi nec efficitur scelerisque. Donec neque nunc, accumsan a neque sit amet, posuere eleifend dolor. Fusce sit amet pulvinar lacus.</p>
                     <button onClick={() => console.log('connect')}>
                         Let's connect <ArrowRightCircle size={25} />

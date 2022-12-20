@@ -20,6 +20,10 @@
 
 /* Default CSS  */
 
+.Portfolio {
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -264,7 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 125px 0 100px 0;
   background-image: url('../assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -455,6 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .project .nav.nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 1);
+
 }
 
 .nav-link#projects-tabs-tab-first {
@@ -463,13 +468,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 .nav-link#projects-tabs-tab-second {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0px 55px 55px 0px;
+  border-radius: 0 55px 55px 0;
 }
 
 .proj-imgbx {

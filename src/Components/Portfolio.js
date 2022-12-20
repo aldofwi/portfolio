@@ -3,6 +3,7 @@ import '../Styles/Portfolio.css';
 import { NavBar } from './NavBar';
 import { Banner } from './Banner';
 import { Skills } from './Skills';
+import { Projects } from './Projects';
 
 function Portfolio() {
 
@@ -12,6 +13,7 @@ function Portfolio() {
         <NavBar />
         <Banner />
         <Skills />
+        <Projects />
 
     </div>
   );
