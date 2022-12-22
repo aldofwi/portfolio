@@ -40,8 +40,6 @@ export const Projects = () => {
                 <div className={isVisible ? "animate__animated animate__bounceIn" : ""}>
                     <h2>Projects</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Nam purus dolor, tincidunt sed turpis nec, interdum euismod lorem.</p>
-                </div> }
-                </TrackVisibility>
 
                     <TabContainer id="projects-tab" defaultActiveKey="first">
                     <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
@@ -55,7 +53,7 @@ export const Projects = () => {
                             <Nav.Link eventKey="third">Tab 3</Nav.Link>
                         </Nav.Item>
                     </Nav>
-                    <Tab.Content>
+                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                         <Tab.Pane eventKey="first">
                             <Row>
                                 {
@@ -75,6 +73,9 @@ export const Projects = () => {
                     </Tab.Content>
 
                     </TabContainer>
+                    </div> }
+                    </TrackVisibility>
+    
                 </Col>
             </Row>
         </Container>

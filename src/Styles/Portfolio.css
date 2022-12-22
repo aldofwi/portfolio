@@ -428,7 +428,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 0 ;
   padding: 17px 0;
   color: #fff;
   width: 100%;
@@ -458,13 +458,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 .project .nav.nav-pills .nav-link.active {
-  border: 1px solid rgba(255, 255, 255, 1);
-
+  border: 0px solid rgba(255, 255, 255, 1);
 }
 
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 1px 0 0 1px;
 }
 
 .nav-link#projects-tabs-tab-second {
