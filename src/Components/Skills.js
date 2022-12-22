@@ -6,6 +6,8 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import 'animate.css'
+import TrackVisibility from 'react-on-screen'
 
 export const Skills = () => {
 
@@ -36,8 +38,16 @@ export const Skills = () => {
             <Row>
                 <Col>
                     <div className="skill-bx">
+
+
+                <TrackVisibility>
+                {({ isVisible}) => 
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <h2>Skills</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Nam purus dolor, tincidunt sed turpis nec, interdum euismod lorem. Fusce imperdiet ullamcorper felis, ut tincidunt orci fringilla eu. Mauris efficitur, libero vitae placerat tempor, turpis arcu ultrices odio, vitae molestie urna est sit amet nunc. Nullam a felis sed ligula rutrum placerat id nec tellus. In faucibus nisi nec efficitur scelerisque. Donec neque nunc, accumsan a neque sit amet, posuere eleifend dolor. Fusce sit amet pulvinar lacus.</p>
+                </div> }
+                </TrackVisibility>
+                        
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className="item">
                                 <img src={meter1} alt="Image1" />
