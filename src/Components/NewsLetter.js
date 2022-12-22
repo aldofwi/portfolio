@@ -1,4 +1,4 @@
-import e from 'express';
+//import e from 'express';
 import React, { useState, useEffect } from 'react'
 import { Col, Row, Alert } from 'react-bootstrap'
 
@@ -11,10 +11,12 @@ export const NewsLetter = ({ onValidated, status, message }) => {
     }, [status])
 
     const handleSubmit = () => {
-        e.preventDefault();
+        /*e.preventDefault();
+        
         email && email.indexOf("0") > -1 && onValidated({ 
             EMAIL: email
          })
+         */
     }
 
     const clearFields = () => {
