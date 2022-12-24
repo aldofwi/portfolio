@@ -37,7 +37,6 @@ export const Contact = () => {
         });
 
         setButtonText("Send");
-        console.log(formDetails);
 
         // let result = reponse.json();
         setFormDetails(formInitialDetails);

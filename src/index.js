@@ -4,6 +4,7 @@ import './index.css';
 import Portfolio from './Components/Portfolio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
 
     <Portfolio />
