@@ -16,7 +16,7 @@ export const Footer = () => {
                 {/* <MailChimpForm /> */} 
                 <MailChimpForm />
                 <Col sm={6}>
-                    <strong><h1>{`Λ`}</h1></strong>
+                    <strong><h1>{`ΛD`}</h1></strong>
                     <img src={logo} alt="Logo" />               
                 </Col>
                 <Col sm={6} className='text-center text-sm'>
@@ -25,7 +25,7 @@ export const Footer = () => {
                         <a href="/"><img src={navIcon2} alt="" /></a>
                         <a href="/"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <p>Copyright ΛD 2023. All Right Reserved ©️</p>
+                    <p>ΛD Copyright ©️ 2023. All Right Reserved.</p>
                 </Col>
             </Row>
         </Container>

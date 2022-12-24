@@ -5,11 +5,11 @@ import contactImg from "../assets/img/contact-img.svg";
 export const Contact = () => {
 
     const formInitialDetails = {
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        message: ''
+        firstName:  '',
+        lastName:   '',
+        email:      '',
+        phone:      '',
+        message:    ''
     }
 
     const [formDetails, setFormDetails] = useState(formInitialDetails);
@@ -27,6 +27,7 @@ export const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText("Sending ...");
+
         let reponse = await fetch("http://localhost:5000/contact", {
             method: "POST",
             headers: {
@@ -34,10 +35,14 @@ export const Contact = () => {
             },
             body: JSON.stringify(formDetails),
         });
+
         setButtonText("Send");
-        let result = reponse.json();
+        console.log(formDetails);
+
+        // let result = reponse.json();
         setFormDetails(formInitialDetails);
-        if (result.code === 200) {
+        
+        if (reponse.status === 200) {
             setStatus({success: true, message: 'Message sent successfully!'});
         } else {
             setStatus({success: false, message: 'Something went wrong, please try again later.'});
@@ -95,16 +100,16 @@ export const Contact = () => {
                                     placeholder='Message'
                                     onChange={(e) => onFormUpdate('message', e.target.value)}
                                     />
+                                    {
+                                        status.message &&
+                                        <Col>
+                                            <p className={status.success === false ? "danger" : "success"}>
+                                                {status.message}
+                                            </p>
+                                        </Col>
+                                    }
                                 <button type="submit"><span>{buttonText}</span></button>
-                            </Col>
-                            {
-                                status.message &&
-                                <Col>
-                                    <p className={status.success === false ? "danger" : "success"}>
-                                        {status.message}
-                                    </p>
-                                </Col>
-                            }
+                            </Col>                        
                         </Row>
                     </form>
                 </Col>
