@@ -15,9 +15,11 @@
 
 ## Description
 
-This project was bootstrapped with 
-[Create React App](https://github.com/facebook/create-react-app),
-[React Multi Carousel](https://github.com/YIZHUANG/react-multi-carousel).
+This project was bootstrapped with :  
+* [Create React App](https://github.com/facebook/create-react-app),
+* [React On Screen](https://github.com/fkhadra/react-on-screen),
+* [React Multi Carousel](https://github.com/YIZHUANG/react-multi-carousel),
+* [React Mailchimp Subscribe](https://github.com/revolunet/react-mailchimp-subscribe).
 
 
 ## Available Scripts
