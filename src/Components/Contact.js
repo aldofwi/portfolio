@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import contactImg from "../assets/img/contact-img.svg";
+import TrackVisibility from 'react-on-screen'
+import 'animate.css'
 
 export const Contact = () => {
 
@@ -57,7 +59,12 @@ export const Contact = () => {
                     <img src={contactImg} alt="Contact Us" />
                 </Col>
                 <Col md={6}>
-                    <h2>Get In Touch</h2>
+                <TrackVisibility>
+                    {({ isVisible}) => 
+                    <div className={isVisible ? "animate__animated animate__pulse" : ""}>
+                        <h2>Get In Touch</h2>
+                    </div>}
+                </TrackVisibility>
                     <form onSubmit={handleSubmit}>
                         <Row>
                             <Col md={6} className='px-1'>

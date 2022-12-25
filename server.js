@@ -13,8 +13,8 @@ app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
     host: 'smtp.gmail.com',
-    port: 465,
-    secure: true,
+    port: 587,
+    secure: false,
     auth: {
         user: process.env.REACT_APP_PERSONALMAIL,
         pass: process.env.REACT_APP_SECUREAPP,
@@ -39,10 +39,11 @@ router.post("/contact", (req, res) => {
         from: email,
         to: "aldo.fwi@gmail.com",
         subject: "Contact from Submit - AD Portfolio",
-        html:  `<p>Name: <strong>${name}</strong>,</p>
-                <p>Email: ${email}</p>
-                <p>Phone: ${phone}</p>
-                <p>Message: ${message}</p>`,
+        html:  `<p><strong>Name : ${name}</strong>,</p>
+                <p><strong>Email :</strong> ${email}</p>
+                <p><strong>Phone :</strong> ${phone}</p>
+                <p><strong>Message :</strong></p>
+                <p> ${message}</p>`,
     };
 
     contactEmail.sendMail(mail, (error) => {

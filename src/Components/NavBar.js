@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import logo     from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
+import gitLogo  from '../assets/img/gitLogo.png'
+import logoA from '../assets/img/logoA_trans.png'
 
 export const NavBar = () => {
 
@@ -34,7 +34,7 @@ export const NavBar = () => {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""} >
           <Container>
             <Navbar.Brand href="#home">
-                <img src={logo} alt="Logo" />
+                <img src={logoA} alt="LogoA" />
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -48,16 +48,16 @@ export const NavBar = () => {
                 <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Contact</Nav.Link>
-                </Nav>
+              </Nav>
 
               <span className='navbar-text'>
                 <div className="social-icon">
-                    <a href="#some"><img src={navIcon1} alt="" /></a>
-                    <a href="#some"><img src={navIcon2} alt="" /></a>
-                    <a href="#some"><img src={navIcon3} alt="" /></a>
+                    <a href="https://github.com/aldofwi"><img src={gitLogo} alt="" /></a>
+                    <a href="https://www.instagram.com/aldofwi"><img src={navIcon3} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/almandindominique/"><img src={navIcon1} alt="" /></a>
                 </div>
-                <button className="vvd" onClick={() => console.log('connect')}>
-                    <span>Let's Connect</span>
+                <button>
+                  <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}><span>Let's Connect</span></Nav.Link>
                 </button>
               </span>
 

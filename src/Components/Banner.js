@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/header-img.svg"
-import 'animate.css'
 import TrackVisibility from 'react-on-screen'
- 
+import 'animate.css'
+
 export const Banner = () => {
 
     const period = 2000;
@@ -12,7 +12,7 @@ export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Web Developer", "QA Engineer", "Project Leader"];
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -56,12 +56,15 @@ export const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <TrackVisibility>
                     {({ isVisible}) => 
-                    <div className={isVisible ? "animate__animated animate__pulse" : ""}>
+                    <div className={isVisible ? "animate__animated animate__headShake" : ""}>
                         <span className='tagline'>Welcome to my Portfolio</span>
                         <h1>{`Hi I'm ΛD `}</h1><h1>➖<span className='wrap'>{text}</span>➖</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Nam purus dolor, tincidunt sed turpis nec, interdum euismod lorem. Fusce imperdiet ullamcorper felis, ut tincidunt orci fringilla eu. Mauris efficitur, libero vitae placerat tempor, turpis arcu ultrices odio, vitae molestie urna est sit amet nunc.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Mauris efficitur, libero vitae placerat tempor, turpis arcu ultrices odio, vitae molestie urna est sit amet nunc.</p>
                         <button onClick={() => console.log('connect')}>
-                            Let's connect <ArrowRightCircle size={25} />
+                            Let's connect 
+                            
+                            <ArrowRightCircle size={25} />
+                            
                         </button>
                     </div> }
                     </TrackVisibility>

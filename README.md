@@ -24,7 +24,7 @@ This project was bootstrapped with :
 
 ## Available Scripts
 
-In the project directory, you can do whatever you want.
+In the project directory, you can find all sources.
 
 ## Learn More
 
