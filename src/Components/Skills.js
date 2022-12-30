@@ -47,7 +47,7 @@ export const Skills = () => {
                         <h2>Skills</h2>
                       </div> }
                       </TrackVisibility>
-                        <p>During the last decade, I began to work as a Full-Time Software Developer (2010-2014) after 3 years of apprenticeship. Afterwards, I had the opportunity to be a Project Leader and keep programming on the projects I was responsible of (2014-2016). Then, I follow a training to learn Quality Assurance and control the rendering of all products (2016-2020).</p>
+                        <p>During the last decade, I began to work as a Full-Time Software Developer (2010-2014) after 3 years of apprenticeship. Afterwards, I had the opportunity to be a Project Leader and keep programming on the projects I was responsible of (2014-2016). Then, I followed a training to learn Quality Assurance and control the rendering of all products.</p>
                         
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className="item">

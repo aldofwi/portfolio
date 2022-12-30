@@ -44,7 +44,7 @@ export const Projects = () => {
                         
                     </div> }
                     </TrackVisibility>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Nam purus dolor, tincidunt sed turpis nec, interdum euismod lorem.</p>
+                    <p>Over the time, I always kept coding whether in enterprise or as a freelance. Recently, I built some personal projects. First, I implemented a card game which allows four players to discuss, play online and check the scoresheet in the same time. Next, I had to develop an e-commerce website for a client so I inspire myself from an Amazon clone I built from scratch. Finally, I made two websites for artists : One for selling instrumental music and the other to discover a stand-up artist and her main performances.</p>
 
                     <TabContainer id="projects-tab" defaultActiveKey="first">
                     <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
