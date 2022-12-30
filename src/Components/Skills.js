@@ -35,11 +35,11 @@ export const Skills = () => {
 
   return (
 
-    <section className='skill' id="skills">
+    <section className='project' id="skills">
         <Container>
             <Row>
                 <Col>
-                    <div className="skill-bx">
+                    <div className="project-bx">
 
                     <TrackVisibility>
                     {({ isVisible}) => 
@@ -47,16 +47,12 @@ export const Skills = () => {
                         <h2>Skills</h2>
                       </div> }
                       </TrackVisibility>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Nam purus dolor, tincidunt sed turpis nec, interdum euismod lorem. Fusce imperdiet ullamcorper felis, ut tincidunt orci fringilla eu. Mauris efficitur, libero vitae placerat tempor, turpis arcu ultrices odio, vitae molestie urna est sit amet nunc. Nullam a felis sed ligula rutrum placerat id nec tellus. In faucibus nisi nec efficitur scelerisque. Donec neque nunc, accumsan a neque sit amet, posuere eleifend dolor. Fusce sit amet pulvinar lacus.</p>
+                        <p>During the last decade, I began to work as a Full-Time Software Developer (2010-2014) after 3 years of apprenticeship. Afterwards, I had the opportunity to be a Project Leader and keep programming on the projects I was responsible of (2014-2016). Then, I follow a training to learn Quality Assurance and control the rendering of all products (2016-2020).</p>
                         
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className="item">
                                 <img src={webdev} alt="Webdev" />
                                 <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={quality} alt="Quality" />
-                                <h5>Quality Assurance</h5>
                             </div>
                             <div className="item">
                                 <img src={project} alt="Project" />
@@ -65,6 +61,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={design} alt="Design" />
                                 <h5>Web Design</h5>
+                            </div>
+                            <div className="item">
+                                <img src={quality} alt="Quality" />
+                                <h5>Quality Assurance</h5>
                             </div>
                             <div className="item">
                                 <img src={rocket} alt="Rocket" />
