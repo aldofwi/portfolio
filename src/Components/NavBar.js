@@ -52,9 +52,9 @@ export const NavBar = () => {
 
               <span className='navbar-text'>
                 <div className="social-icon">
-                    <a href="https://github.com/aldofwi"><img src={gitLogo} alt="" /></a>
-                    <a href="https://www.instagram.com/aldofwi"><img src={navIcon3} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/almandindominique/"><img src={navIcon1} alt="" /></a>
+                    <a href="https://github.com/aldofwi" target="_blank" rel="noreferrer"><img src={gitLogo} alt="" /></a>
+                    <a href="https://www.instagram.com/aldofwi" target="_blank" rel="noreferrer"><img src={navIcon3} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/almandindominique" target="_blank" rel="noreferrer"><img src={navIcon1} alt="" /></a>
                 </div>
                 <button>
                   <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}><span>Let's Connect</span></Nav.Link>

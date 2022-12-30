@@ -23,7 +23,7 @@ export const Footer = () => {
                     <div className="social-icon">
                         <a href="https://github.com/aldofwi"><img src={gitLogo} alt="" /></a>
                         <a href="https://www.instagram.com/aldofwi"><img src={navIcon3} alt="" /></a>
-                        <a href="https://www.linkedin.com/in/almandindominique/"><img src={navIcon1} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/almandindominique"><img src={navIcon1} alt="" /></a>
                     </div>
                     <p>ΛDsign Copyright ©️ 2023. All Right Reserved.</p>
                 </Col>

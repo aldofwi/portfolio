@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/header-img.svg"
+import headerImg from "../assets/img/laptop-desk.png"
 import TrackVisibility from 'react-on-screen'
 import 'animate.css'
 
@@ -59,12 +59,12 @@ export const Banner = () => {
                     <div className={isVisible ? "animate__animated animate__headShake" : ""}>
                         <span className='tagline'>Welcome to my Portfolio</span>
                         <h1>{`Hi I'm ΛD `}</h1><h1>➖<span className='wrap'>{text}</span>➖</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed suscipit eros. Cras a sagittis ex. Morbi sed porttitor velit. Phasellus ac facilisis nisl. Integer imperdiet, justo quis consectetur tristique, lectus nunc elementum urna, cursus sagittis metus est id nibh. Mauris efficitur, libero vitae placerat tempor, turpis arcu ultrices odio, vitae molestie urna est sit amet nunc.</p>
+                        <p>Computer science engineering graduate, with around 12 years of working experience. I completed my graduation in 2006 from Velizy Technological University near Versailles and also in 2009 from University  of Paris XII ESIAG. Started my career at one of the biggest french Bank. (2006-2010), currently working as a Full Stack Engineer (NextJS) in Freelance.</p>
                         <button onClick={() => console.log('connect')}>
                             Let's connect 
                             
                             <ArrowRightCircle size={25} />
-                            
+
                         </button>
                     </div> }
                     </TrackVisibility>
