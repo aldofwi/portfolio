@@ -308,7 +308,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   width: 96%;
 }
 
-.banner button {
+.banner a {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -318,14 +318,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   align-items: center;
 }
 
-.banner button svg {
+.banner a svg {
   font-size: 25px;
   margin-left: 10px;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease;
   line-height: 1;
 }
 
-.banner button:hover svg {
+.banner a:hover svg {
   margin-left: 25px;
 }
 

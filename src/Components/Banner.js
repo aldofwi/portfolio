@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
+// import { ArrowRightCircle } from "react-bootstrap-icons"
+import { CupHot } from "react-bootstrap-icons"
 import headerImg from "../assets/img/laptop-desk.png"
 import TrackVisibility from 'react-on-screen'
 import 'animate.css'
@@ -60,12 +61,13 @@ export const Banner = () => {
                         <span className='tagline'>Welcome to my Portfolio</span>
                         <h1>{`Hi I'm ΛD `}</h1><h1>➖<span className='wrap'>{text}</span>➖</h1>
                         <p>Computer science engineering graduate, with around 12 years of working experience. I completed my graduation in 2006 from Velizy Technological University near Versailles and also in 2009 from University  of Paris XII ESIAG. Started my career at one of the biggest french Bank. (2006-2010), currently working as a Full Stack Engineer (NextJS) in Freelance.</p>
-                        <button onClick={() => console.log('connect')}>
-                            Let's connect 
-                            
-                            <ArrowRightCircle size={25} />
+                        
+                        <a href="https://www.buymeacoffee.com/aldofwi" target="_blank" rel="noreferrer">
 
-                        </button>
+                            Buy me a coffee 
+                            
+                            <CupHot size={25} />
+                        </a>
                     </div> }
                     </TrackVisibility>
                 </Col>
