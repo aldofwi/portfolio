@@ -22,14 +22,14 @@ This project was bootstrapped with :
 * ✉️ [React Mailchimp Subscribe](https://github.com/revolunet/react-mailchimp-subscribe).
 
 
-## Available Scripts
+## 📥 Available Scripts
 
-📥 In the project directory, you can find all sources.
+In the project directory, you can find all sources.
 
-## Learn More
+## 📲 Learn More
 
-📲 Follow me on social media.
+Follow me on social media.
 
-## Fact
+## 🎗 Fact
 
-🎗 Sharing is caring.
+Sharing is caring.
