@@ -30,6 +30,6 @@ This project was bootstrapped with :
 
 📲 Follow me on social media.
 
-## Fact
+## 🎗 Fact
 
-🎗 Sharing is caring.
+Sharing is caring.
