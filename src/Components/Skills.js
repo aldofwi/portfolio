@@ -7,7 +7,7 @@ import project from "../assets/img/pic_project.png";
 import quality from "../assets/img/pic_quality.png";
 import rocket from "../assets/img/pic_rocket.png";
 import webdev from "../assets/img/pic_webdev.png";
-import colorSharp from "../assets/img/color-sharp.png";
+import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen'
 import 'animate.css'
 
@@ -35,11 +35,11 @@ export const Skills = () => {
 
   return (
 
-    <section className='project' id="skills">
+    <section className='skill' id="skills">
         <Container>
             <Row>
                 <Col>
-                    <div className="project-bx">
+                    <div className="skill-bx">
 
                     <TrackVisibility>
                     {({ isVisible}) => 
@@ -75,7 +75,8 @@ export const Skills = () => {
                 </Col>
             </Row>
         </Container>
-        <img className="background-image-left" src={colorSharp} alt="" />
+        <img src={colorSharp2} alt="" className='background-image-right' />
+
     </section>
 
   )
