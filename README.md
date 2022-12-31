@@ -16,20 +16,20 @@
 ## Description
 
 This project was bootstrapped with :  
-* [Create React App](https://github.com/facebook/create-react-app),
-* [React On Screen](https://github.com/fkhadra/react-on-screen),
-* [React Multi Carousel](https://github.com/YIZHUANG/react-multi-carousel),
-* [React Mailchimp Subscribe](https://github.com/revolunet/react-mailchimp-subscribe).
+* ⚛️ [Create React App](https://github.com/facebook/create-react-app),
+* 🖥 [React On Screen](https://github.com/fkhadra/react-on-screen),
+* ↔️ [React Multi Carousel](https://github.com/YIZHUANG/react-multi-carousel),
+* ✉️ [React Mailchimp Subscribe](https://github.com/revolunet/react-mailchimp-subscribe).
 
 
 ## Available Scripts
 
-In the project directory, you can find all sources.
+📥 In the project directory, you can find all sources.
 
 ## Learn More
 
-Follow me on social media.
+📲 Follow me on social media.
 
 ## Fact
 
-Sharing is caring.
+🎗 Sharing is caring.
