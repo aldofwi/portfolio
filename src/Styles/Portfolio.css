@@ -312,6 +312,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
+  font-family: "SignPainter";
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
