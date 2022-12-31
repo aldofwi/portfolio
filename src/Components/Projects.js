@@ -2,29 +2,71 @@ import React from 'react';
 import { ProjectCard } from './ProjectCard';
 import { Col, Nav, Tab, TabContainer, Container, Row } from 'react-bootstrap';
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import dariddima1 from "../assets/img/dariddima-1.png";
+import dariddima2 from "../assets/img/dariddima-2.png";
+import dariddima3 from "../assets/img/dariddima-3.png";
+import amazing1 from "../assets/img/clone-1.png";
+import amazing2 from "../assets/img/clone-2.png";
+import amazing3 from "../assets/img/clone-3.png";
+import deelle1 from "../assets/img/deelle-1.png";
+import deelle2 from "../assets/img/deelle-2.png";
+import deelle3 from "../assets/img/deelle-3.png";
 import TrackVisibility from 'react-on-screen'
 import 'animate.css'
 
 export const Projects = () => {
 
-    const projects = [
+    const project1 = [
         {
-            title: "Business Start-Up",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "DaRiddima",
+            description: "Homepage",
+            imgUrl: dariddima1,
         },
         {
-            title: "Business Start-Up",
-            description: "Design & Development",
-            imgUrl: projImg2,
+            title: "DaRiddima",
+            description: "Pricing",
+            imgUrl: dariddima2,
         },
         {
-            title: "Business Start-Up",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "DaRiddima",
+            description: "Discover",
+            imgUrl: dariddima3,
+        },
+    ];
+
+    const project2 = [
+        {
+            title: "Amazing",
+            description: "Homepage",
+            imgUrl: amazing1,
+        },
+        {
+            title: "Amazing",
+            description: "Basket",
+            imgUrl: amazing2,
+        },
+        {
+            title: "Amazing",
+            description: "Orders",
+            imgUrl: amazing3,
+        },
+    ];
+
+    const project3 = [
+        {
+            title: "Déelle",
+            description: "Homepage",
+            imgUrl: deelle1,
+        },
+        {
+            title: "Déelle",
+            description: "Playlist",
+            imgUrl: deelle2,
+        },
+        {
+            title: "Déelle",
+            description: "Discover",
+            imgUrl: deelle3,
         },
     ];
 
@@ -49,13 +91,13 @@ export const Projects = () => {
                     <TabContainer id="projects-tab" defaultActiveKey="first">
                     <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                         <Nav.Item>
-                            <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                            <Nav.Link eventKey="first">DaRiddima</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                            <Nav.Link eventKey="second">Amazing</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                            <Nav.Link eventKey="third">Déelle</Nav.Link>
                         </Nav.Item>
                     </Nav>
 
@@ -63,7 +105,7 @@ export const Projects = () => {
                         <Tab.Pane eventKey="first">
                             <Row>
                                 {
-                                    projects.map((project, index) => {
+                                    project1.map((project, index) => {
                                         return (
                                             <ProjectCard 
                                             key={index}
@@ -74,8 +116,34 @@ export const Projects = () => {
                                 }
                             </Row>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="second">Lorem ipsum</Tab.Pane>
-                        <Tab.Pane eventKey="third">Lorem ipsum</Tab.Pane>
+                        <Tab.Pane eventKey="second">
+                            <Row>
+                                {
+                                    project2.map((project, index) => {
+                                        return (
+                                            <ProjectCard 
+                                            key={index}
+                                            {...project} 
+                                            />
+                                        )
+                                    })
+                                }
+                            </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="third">
+                            <Row>
+                                {
+                                    project3.map((project, index) => {
+                                        return (
+                                            <ProjectCard 
+                                            key={index}
+                                            {...project} 
+                                            />
+                                        )
+                                    })
+                                }
+                            </Row>
+                        </Tab.Pane>
                     </Tab.Content>
                     </TabContainer>
                     </div>
