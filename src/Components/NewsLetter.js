@@ -10,6 +10,10 @@ export const NewsLetter = ({ onValidated, status, message }) => {
         if (status === 'success') clearFields();
     }, [status])
 
+    const clearFields = () => {
+        setEmail('');
+    }
+
     const handleSubmit = (e) => {
         e.preventDefault();
         email && 
@@ -17,10 +21,6 @@ export const NewsLetter = ({ onValidated, status, message }) => {
         onValidated({ 
             EMAIL: email
          })
-    }
-
-    const clearFields = () => {
-        setEmail('');
     }
 
   return (
