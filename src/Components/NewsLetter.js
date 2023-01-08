@@ -10,13 +10,13 @@ export const NewsLetter = ({ onValidated, status, message }) => {
         if (status === 'success') clearFields();
     }, [status])
 
-    const handleSubmit = () => {
-        /*e.preventDefault();
-        
-        email && email.indexOf("0") > -1 && onValidated({ 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        email && 
+        email.indexOf("@") > -1 && 
+        onValidated({ 
             EMAIL: email
          })
-         */
     }
 
     const clearFields = () => {
