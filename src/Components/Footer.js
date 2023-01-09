@@ -24,7 +24,7 @@ export const Footer = () => {
                         <a href="https://www.instagram.com/aldofwi"><img src={navIcon3} alt="" /></a>
                         <a href="https://www.linkedin.com/in/almandindominique"><img src={navIcon1} alt="" /></a>
                     </div>
-                    <p>ΛDsign Copyright ©️ 2023. All Right Reserved.</p>
+                    <p>ΛDHD Copyright ©️ 2023. All Right Reserved.</p>
                 </Col>
             </Row>
         </Container>
