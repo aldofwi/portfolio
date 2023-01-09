@@ -4,8 +4,6 @@ import { NewsLetter } from './NewsLetter'
 
 export const MailChimpForm = () => {
 
-    console.log("URL : ", process.env.REACT_APP_MAILCHIMP_URL);
-
     // Fill the fields in .env file from MailChimp Account.
     const postURL = `${process.env.REACT_APP_MAILCHIMP_URL}?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
 
