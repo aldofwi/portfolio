@@ -439,7 +439,7 @@ right: 0;
 z-index: -4;
 }
 
-/* Projects CSS 1 */
+/* Projects CSS */
 
 .project {
   padding: 0 0 50px 0;
@@ -588,7 +588,7 @@ right: 0;
 z-index: -4;
 }
 
-/* Projects CSS 2 */
+/* Contact CSS */
 
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -744,7 +744,7 @@ z-index: -4;
 
 .new-email-bx button {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 20px 65px;
+  padding: 20px 60px;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.5px;
