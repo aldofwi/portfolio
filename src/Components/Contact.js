@@ -86,6 +86,7 @@ export const Contact = () => {
                             <Col md={6} className='px-1'>
                                 <input 
                                     type="email" 
+                                    required
                                     value={formDetails.email}
                                     placeholder='Email'
                                     onChange={(e) => onFormUpdate('email', e.target.value)}
@@ -102,6 +103,7 @@ export const Contact = () => {
                             <Col>
                                 <textarea 
                                     row="6" 
+                                    required
                                     value={formDetails.message} 
                                     placeholder='Message'
                                     onChange={(e) => onFormUpdate('message', e.target.value)}

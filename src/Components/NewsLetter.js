@@ -42,8 +42,8 @@ export const NewsLetter = ({ onValidated, status, message }) => {
                                 type="email" 
                                 onChange={(e) => setEmail(e.target.value)} 
                                 placeholder="Email Address" />
-
-                            <button type="submit">Submit</button>
+                            
+                                <button type="submit">Submit</button>
                         </div>
                     </form>
                 </Col>
