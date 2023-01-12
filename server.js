@@ -13,8 +13,8 @@ app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
     host: 'smtp.gmail.com',
-    port: 587,
-    secure: false,
+    port: 465,
+    secure: true,
     auth: {
         user: process.env.REACT_APP_PERSONALMAIL,
         pass: process.env.REACT_APP_SECUREAPP,
