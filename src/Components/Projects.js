@@ -86,7 +86,7 @@ export const Projects = () => {
                         
                     </div> }
                     </TrackVisibility>
-                    <p>Over the time, I always kept coding whether in enterprise or as a freelance. Recently, I built some personal projects.</p>
+                    <p>Over the time, I always kept coding whether in enterprise or as a freelance. Recently, I also built some personal projects.</p>
                     <p>First, I implemented a card game which allows four players to discuss, play online and check the scoresheet. Next, I had to develop an e-commerce website for a client so I inspire myself from an <a href='https://amazing-16b7c.web.app/' target="_blank" rel="noreferrer">Amazon Clone</a> I built from scratch.</p> 
                     <p>Finally, I made two websites for artists : <a href='https://aldofwi.github.io/dariddima/' target="_blank" rel="noreferrer">DaRiddima</a> for selling instrumental music and the other to discover <a href='https://aldofwi.github.io/deelle/' target="_blank" rel="noreferrer">Déelle</a> a stand-up artist and her main performances.</p>
 
